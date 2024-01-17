@@ -43,9 +43,10 @@ body{
 }
 
 
-.container .content ul .disp{
+.container .content ul li{
     display: flex;
     align-items: center;
+    
     height: 60px;
     font-size: 22px;
     font-weight: 500;
@@ -60,7 +61,7 @@ body{
     position: relative;
 }
 
-.container .content ul .disp p{
+.container .content ul li p{
     text-transform: capitalize;
     margin-left: 5px;
 }
