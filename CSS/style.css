@@ -33,7 +33,7 @@ body{
     margin-bottom: 20px;
 }
 
-.container .content ul{
+.container .content .list{
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -43,7 +43,7 @@ body{
 }
 
 
-.container .content ul li{
+.container .content .list label{
     display: flex;
     align-items: center;
     
@@ -61,12 +61,12 @@ body{
     position: relative;
 }
 
-.container .content ul li p{
+.container .content .list label p{
     text-transform: capitalize;
     margin-left: 5px;
 }
 
-.content ul .indicator{
+.content .list .indicator{
     height: 60px;
     width: 100%;
     left: 0;
