@@ -37,6 +37,9 @@ body{
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    position: relative;
+    width: 20%;
+    
 }
 
 
@@ -48,18 +51,28 @@ body{
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
-    background: red;
-    width: 20%;
+    /* background: red; */
     border-radius: 12px;
     line-height: 60px;
-    margin: 5px 0;
     padding-left: 25px;
     color: #333;
+    z-index: 12;
+    position: relative;
 }
 
 .container .content ul .disp p{
     text-transform: capitalize;
     margin-left: 5px;
+}
+
+.content ul .indicator{
+    height: 60px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    background: #6d50e2;
+    border-radius: 12px;
+    
 }
 
 
