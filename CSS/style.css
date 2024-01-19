@@ -8,7 +8,7 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -113,11 +113,33 @@ body{
     height: 100%;
 }
 
+.content .text-content .text{
+    display: none;
+}
+
+.content .text-content .home{
+    display: block;
+}
+
+#home:checked ~ .text-content .home,
+#Blog:checked ~ .text-content .Blog,
+#Help:checked ~ .text-content .Help,
+#Code:checked ~ .text-content .Code,
+#About:checked ~ .text-content .About{
+    display: block;
+}
+
+
+#Blog:checked ~ .text-content .home,
+#Help:checked ~ .text-content .home,
+#Code:checked ~ .text-content .home,
+#About:checked ~ .text-content .home{
+    display: none;
+}
 
 .container .content .text-content p{
     text-align: justify;
 }
-
 
 .container .content .text-content .title{
     font-size: 25px;
