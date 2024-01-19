@@ -39,6 +39,7 @@ body{
     flex-direction: column;
     position: relative;
     width: 20%;
+    margin-right: 50px;
 }
 
 .container .content .list label{
@@ -96,3 +97,31 @@ body{
 #About:checked ~ .list .indicator{
     top: 240px;
 }
+
+.container input[type="radio"]{
+    display: none;
+}
+
+.container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .content .text-content{
+    width: 80%;
+    height: 100%;
+}
+
+
+.container .content .text-content p{
+    text-align: justify;
+}
+
+
+.container .content .text-content .title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
